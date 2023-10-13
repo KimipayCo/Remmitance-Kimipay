@@ -3,12 +3,12 @@ import { Navbar, Nav, NavDropdown, Button, Container } from "react-bootstrap";
 
 const NavbarComponent = () => {
     return ( 
-        <Navbar bg="light" expand="lg" className="justify-content-end">
+        <Navbar fixed="top" bg="light" expand="lg" className="justify-content-end">
             <Container>
                 <Navbar.Brand href="#home">
                     <img
                     src="/logo22.png"
-                    height="50"
+                    height="45"
                     className="d-inline-block align-top"
                     alt="Kimipay logo"
                     />

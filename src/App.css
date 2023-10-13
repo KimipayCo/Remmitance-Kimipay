@@ -1,19 +1,20 @@
-* {
-  font-family: 'Montserrat', sans-serif;
-}
+/*GENERAL SCREEN */
+/* NAVIGATION BAR */
 
 .dropdown-title {
   color: #231F20;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 600;
 }
 
 .rounded-pill {
   color: #231F20 !important;
-  font-size: 12px !important;
+  font-size: 14px !important;
   font-weight: 600 !important;
   padding: 7px 20px !important;
   border: 1.5px solid #3799D4 !important;
+  transition: 0.5s;
+  background-color: white !important;
 }
 
 .rounded-pill:hover {
@@ -27,4 +28,423 @@
 
 .dropdown-item:hover {
   background-color: rgba(55, 153, 212, 0.15) !important;
+}
+
+/* GENERAL */
+
+.section {
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+.subsection {
+  height: 50vh;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+p {
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.col-md-4 {
+  padding-left: 3% !important;
+  padding-right: 3% !important;
+}
+
+/* BANNER SECTION */
+
+.header {
+  background: linear-gradient(180deg, rgba(55, 153, 212, 0.75) 65.28%, rgba(55, 153, 212, 0.00) 100%, rgba(55, 153, 212, 0.00) 100%);
+}
+
+.col-md-8 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+
+.col-6{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+h1 {
+  font-weight: bolder !important;
+  font-size: 3rem !important;
+  color: white !important;
+}
+
+.heading {
+  font-weight: bolder;
+  font-size: 2.5rem;
+}
+
+.subtitle {
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.yellow-text{
+  color: #EFC31E;;
+}
+
+.description {
+  font-size: 18px;
+  color: white;
+}
+
+.bi-arrow-right {
+  font-weight: bolder;
+}
+
+/*FEATURE SECTION */
+
+.features {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0%, rgba(55, 153, 212, 0.75) 100%);
+}
+
+.features h2 {
+  color: #231F20;
+  font-weight: 700;
+  font-size: 3rem;
+  margin-bottom: 2%;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.feature-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #3799D4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2%;
+}
+
+.icon {
+  color: #EFC31E;
+  font-size: 20px;
+}
+
+.card-container {
+  border-radius: 30px !important;
+  background-color: white;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.25);
+  width: 480px;
+  padding: 2.5% 4%;
+  margin-bottom: 10%;
+}
+
+.features.row {
+  margin-bottom: 5%;
+}
+
+.card-title {
+  font-weight: bolder !important;
+  font-size: 1.4rem !important;
+  color: #231F20;
+}
+
+.card-text {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 1rem;
+}
+
+.feature-redirect-btn {
+  background-color: #3799D4 !important;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 600 !important;
+  font-size: 1.05rem !important;
+}
+
+/*SECURE AND RELIABLE SECTION*/
+
+.secure-and-reliable {
+  background: linear-gradient(180deg, rgba(55, 153, 212, 0.75) 53.82%, rgba(55, 153, 212, 0.00) 100%, rgba(55, 153, 212, 0.00) 100%);
+}
+
+.secure-and-reliable h2 {
+  color: #EFC31E;
+  font-weight: 700;
+  font-size: 3rem;
+  margin-bottom: 2%;
+}
+
+.secure-and-reliable-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+
+.secure-and-reliable-text h2 {
+  font-weight: bolder;
+}
+
+.secure-and-reliable-text h4{
+  font-weight: 600;
+}
+
+.secure-and-reliable-text p{
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.secure-and-reliable-img {
+  width: 400px;
+  height: auto;
+}
+
+.carousel-inner {
+  display: flex;
+}
+
+.testimonial {
+  background-color: white;
+  padding: 25px 20px;
+  border-radius: 30px;
+  width: 100%;
+  margin-top: 1%;
+}
+
+.company-logo {
+  width: 65px;
+  border-radius: 50%;
+}
+
+.company-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.company-name {
+  font-weight: bolder;
+  white-space: nowrap;
+  margin: 0;
+  padding: 0;
+}
+
+.company-location {
+  color: #888;
+  font-size: 12px;
+  font-weight: bolder;
+  margin: 0;
+}
+
+.bi.bi-quote.right {
+  font-size: 5rem;
+  align-self: flex-start;
+  color: #3799D4;
+}
+
+.testimonial-text {
+  font-family: 'Nunito Sans', sans-serif;
+  margin-top: 2%;
+}
+
+.bi.bi-quote.left {
+  font-size: 5rem;
+  align-self: flex-end;
+  color: #3799D4;
+  transform: scaleX(-1) scaleY(-1);
+}
+
+.slide .carousel-indicators button {
+  background-color: #3799D4;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.col-6.image {
+  align-items: center;
+  height: fit-content !important;
+}
+
+/* JOIN OUR COMMUNITY */
+
+.join-us {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.join-us h2 {
+  font-weight: 700;
+  font-size: 3rem;
+  margin-bottom: 2%;
+}
+
+#button-addon2 {
+  background-color: #3799D4;
+  color: white;
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+.input-group {
+  width: 60% !important;
+}
+
+/* FOOTER SECTION */
+.page-footer {
+  background-color: #3799D4;
+  color: white;
+}
+
+.page-footer p {
+  font-size: 0.87rem;
+  text-align: left;
+}
+
+.text-uppercase {
+  text-align: left;
+  font-weight: bolder;
+  font-size: 1rem;
+}
+
+.list-unstyled{
+  text-align: left;
+}
+
+.page-footer a{
+  font-family: 'Nunito Sans', sans-serif;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: transform 2000ms ease-in-out, font-weight 100ms ease-in-out, color 1000ms ease-in-out, backface-visibility 100ms;
+  color: white;
+}
+
+.page-footer .list-unstyled.links a:hover {
+  font-weight: 700;
+  transition: ease-in 0.9s ease-out 0.5s;
+  transform: scale(1.5);
+  backface-visibility: hidden;
+}
+
+.page-footer .footer-copyright a:hover {
+  font-weight: 700;
+  transition: ease-in 0.9s ease-out 0.5s;
+  transform: scale(1.5);
+  backface-visibility: hidden;
+}
+
+.btn.facebook:hover {
+  background-color: #3b5998;
+}
+
+.btn.twitter:hover {
+  background-color: #55acee;
+}
+
+.btn.youtube:hover {
+  background-color: #dd4b39;
+}
+
+.btn.instagram:hover {
+  background-color: #ac2bac;
+}
+
+.btn.linkedin:hover {
+  background-color: #0082ca;
+}
+
+/* SCREEN SIZE */
+/* MEDIUM SCREENS */
+
+/* SMALL SCREENS */
+@media screen and (max-width: 574px) {
+  .col-md-8 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 75px;
+    height: 100vh;
+  }
+
+  h1 {
+    font-size: 2rem !important;
+  }
+  h2 {
+    font-size: 1.8rem !important;
+  }
+
+  .secure-and-reliable-img {
+    width: 250px;
+    height: auto;
+  }
+
+  .testimonial {
+    background-color: white;
+    padding: 25px 20px;
+    border-radius: 30px;
+    margin-top: 1%;
+  }
+
+  .bi.bi-quote.right {
+    font-size: 2.5rem;
+    align-self: flex-start;
+    color: #3799D4;
+  }
+
+  .bi.bi-quote.left {
+    font-size: 2.5rem;
+    align-self: flex-end;
+    color: #3799D4;
+    transform: scaleX(-1) scaleY(-1);
+  }
+
+  .testimonial-text {
+    font-size: 0.85rem;
+  }
+
+  .input-group {
+    width: 100% !important;
+  }
+
+  .input-group button{
+    font-weight: 500 !important;
+  }
+
+  .card-title {
+    font-size: 1.1rem !important;
+  }
+
+  .card-text {
+    font-size: 0.85rem;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+  }
+
+  .description {
+    font-size: 0.9rem;
+  }
+
+  .secure-and-reliable-text p{
+    font-size: 0.9rem;
+  }
 }
