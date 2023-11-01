@@ -13,9 +13,14 @@ const BannerComponent = () => {
                         receive funds from Mobile Money, cards, and banks. Our platform 
                         offers lightning-fast currency conversion to over 40 global 
                         currencies, making transactions simple and secure.</p>
-                        <Button variant="outline-primary" className="rounded-pill">Get Started <i className="bi bi-arrow-right"></i></Button>
+                        <Button variant="outline-primary" className="rounded-pill get-started-btn">Get Started <i className="bi bi-arrow-right"></i></Button>
                 </div>
                 <div className="col-md-4">
+                    <img
+                        src="remittance-mockup.png"
+                        alt="remmitance mockup"
+                        className="remmitance-mockup"
+                    />
                 </div>
             </div>
         </div>

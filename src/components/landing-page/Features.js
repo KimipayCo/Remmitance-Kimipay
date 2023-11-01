@@ -2,14 +2,14 @@ import React from "react";
 import Card from 'react-bootstrap/Card';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Button from "react-bootstrap/Button";
+// import Button from "react-bootstrap/Button";
 
 const FeaturesComponent = () => {
     return ( 
         <div className="section features">
             <h2 className="heading">Features</h2>
-            <Row xs={1} md={2} className="mb-1">
-                <Col>
+            <Row className="mb-1">
+                <Col className="col-lg-3 col-md-6">
                     <Card className="card-container">
                         <Card.Body >
                         <div className='feature-icon'>
@@ -20,11 +20,11 @@ const FeaturesComponent = () => {
                             Experience a hassle-free registration process to create your Kimipay Wallet. 
                             Get started in minutes and unlock a world of financial convenience.
                             </Card.Text>
-                            <Button variant="outline-primary" className="rounded-pill">Learn More</Button>
+                            {/* <Button variant="outline-primary" className="rounded-pill">Learn More</Button> */}
                         </Card.Body>
                     </Card>
                 </Col>
-                <Col>
+                <Col className="col-lg-3 col-md-6">
                     <Card className="card-container">
                         <Card.Body>
                         <div className='feature-icon'>
@@ -35,13 +35,11 @@ const FeaturesComponent = () => {
                             Recieve money from Mobile Money, cards and banks seamlessly. Kimipay Wallet
                             simplifies fund collection, putting control in your hands.
                             </Card.Text>
-                            <Button variant="outline-primary" className="rounded-pill">Learn More</Button>
+                            {/* <Button variant="outline-primary" className="rounded-pill">Learn More</Button> */}
                         </Card.Body>
                     </Card>
                 </Col>
-            </Row>
-            <Row xs={1} md={2} className="mb-2">
-                <Col>
+                <Col className="col-lg-3 col-md-6">
                     <Card className="card-container">
                         <Card.Body>
                         <div className="feature-icon">
@@ -50,13 +48,13 @@ const FeaturesComponent = () => {
                             <Card.Title>Currency Conversions</Card.Title>
                             <Card.Text>
                             Enjoy the power to convert your digital value to over 40 global currencies 
-                            in a matter of seconds. Your funds, your way.
+                            in a matter of seconds. Your funds, your way. Quick and hassle-free.
                             </Card.Text>
-                            <Button variant="outline-primary" className="rounded-pill">Learn More</Button>
+                            {/* <Button variant="outline-primary" className="rounded-pill">Learn More</Button> */}
                         </Card.Body>
                     </Card>
                 </Col>
-                <Col>
+                <Col className="col-lg-3 col-md-6">
                     <Card className="card-container">
                         <Card.Body>
                         <div className='feature-icon'>
@@ -67,7 +65,7 @@ const FeaturesComponent = () => {
                             Whether it's peer-to-peer, customer-to-business, or business-to-business, 
                             enjoy streamlined transactions for a seamless experience.
                             </Card.Text>
-                            <Button variant="outline-primary" className="rounded-pill">Learn More</Button>
+                            {/* <Button variant="outline-primary" className="rounded-pill">Learn More</Button> */}
                         </Card.Body>
                     </Card>
                 </Col>
