@@ -3,9 +3,9 @@ import Button from "react-bootstrap/Button";
 
 const BannerComponent = () => {
     return ( 
-        <div className="section header">
+        <>
             <div className="row">
-                <div className="col-md-8">
+                <div className="col-md-6">
                     <h1 className="heading">Your Digital Solution for <span className="yellow-text">Secure</span> and <span className="yellow-text">Convenient</span> Remittances</h1>
                     <h4 className="subtitle">Send, Receive, and Convert Money Globally with Ease</h4>
                     <p className="description header-description">Welcome to Kimipay Wallet, your gateway to a seamless world of 
@@ -15,7 +15,7 @@ const BannerComponent = () => {
                         currencies, making transactions simple and secure.</p>
                         <Button variant="outline-primary" className="rounded-pill get-started-btn">Get Started <i className="bi bi-arrow-right"></i></Button>
                 </div>
-                <div className="col-md-4">
+                <div className="col-md-6 banner-img">
                     <img
                         src="remittance-mockup.png"
                         alt="remmitance mockup"
@@ -23,7 +23,7 @@ const BannerComponent = () => {
                     />
                 </div>
             </div>
-        </div>
+        </>
     );
 }
 

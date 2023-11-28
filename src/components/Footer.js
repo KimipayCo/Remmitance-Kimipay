@@ -17,7 +17,7 @@ const FooterComponent = () => {
                     <div className="col-md-4 mb-md-0 mb-3">
                         <h5 className="text-uppercase">Quick Links</h5>
                         <ul className="list-unstyled links">
-                            <li><a href="#!">About Us</a></li>
+                            <li><a href="/about">About Us</a></li>
                             <li><a href="#!">FAQs</a></li>
                             <li><a href="#!">Privacy Policy</a></li>
                             <li><a href="#!">Terms & Conditions</a></li>

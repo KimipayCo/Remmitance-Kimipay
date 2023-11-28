@@ -1,14 +1,44 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../public/fonts/Montserrat-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../public/fonts/Montserrat-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../public/fonts/Montserrat-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+/* Repeat for other weights as needed */
+
+.section-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+}
+
 /*GENERAL SCREEN */
+.App {
+  background-color: #F3F3F9;
+}
 /* NAVIGATION BAR */
 
 .nav-link{
-  color: #231F20;
-  font-size: 16px;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 14px;
   font-weight: 600;
 }
 
-.nav-link .active {
+.nav-link.active {
   color: #3799D4;
+  font-weight: 600;
 }
 
 .rounded-pill {
@@ -18,6 +48,7 @@
   padding: 7px 30px !important;
   border: 1.5px solid #3799D4 !important;
   transition: 0.5s;
+  font-family: 'Nunito Sans', sans-serif !important; 
   background-color: white !important;
 }
 
@@ -33,8 +64,7 @@
 /* GENERAL */
 
 .section {
-  padding-left: 4%;
-  padding-right: 4%;
+  width: 100%;
 }
 
 .subsection {
@@ -55,15 +85,14 @@ p {
 /* BANNER SECTION */
 
 .header {
-  background: linear-gradient(180deg, rgba(55, 153, 212, 0.75) 65.28%, rgba(55, 153, 212, 0.00) 100%, rgba(55, 153, 212, 0.00) 100%);
+  background: linear-gradient(180deg, rgba(55, 153, 212, 0.50) 0%, #3799D4 68.4%);
 }
 
-.header .col-md-4{
+.header .col-md-6{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  height: 100vh;
+  height: 80vh;
 }
 
 .col-6{
@@ -82,7 +111,7 @@ h1 {
 
 .heading {
   font-weight: bolder;
-  font-size: 2.5rem;
+  font-size: 2.75rem !important;
 }
 
 .subtitle {
@@ -111,10 +140,15 @@ h1 {
 }
 
 .remmitance-mockup {
-  width: 275px;
+  width: 400px;
   height: auto;
 }
 
+.banner-img {
+  display: flex;
+  justify-content: center !important;
+  align-items: center;
+}
 /*FEATURE SECTION */
 
 .features {
@@ -122,7 +156,7 @@ h1 {
   flex-direction: column;
   align-content: center;
   justify-content: center;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0%, rgba(55, 153, 212, 0.75) 100%);
+  background: #3799D4;
 }
 
 .features h2 {
@@ -136,6 +170,7 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 100%;
 }
 
 .col {
@@ -155,7 +190,7 @@ h1 {
   margin-bottom: 2%;
 }
 
-.icon {
+.feature-icon .icon {
   color: #EFC31E;
   font-size: 20px;
 }
@@ -174,7 +209,7 @@ h1 {
 }
 
 .card-title {
-  font-weight: bolder !important;
+  font-weight: bold;
   font-size: 1.4rem !important;
   color: #231F20;
 }
@@ -194,7 +229,7 @@ h1 {
 /*SECURE AND RELIABLE SECTION*/
 
 .secure-and-reliable {
-  background: linear-gradient(180deg, rgba(55, 153, 212, 0.75) 53.82%, rgba(55, 153, 212, 0.00) 100%, rgba(55, 153, 212, 0.00) 100%);
+  background: linear-gradient(180deg, #3799D4 22.05%, rgba(55, 153, 212, 0.00) 100%);
 }
 
 .secure-and-reliable h2 {
@@ -284,13 +319,6 @@ h1 {
 .join-us {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-}
-
-.join-us h2 {
-  font-weight: 700;
-  font-size: 3rem;
-  margin-bottom: 2%;
 }
 
 #button-addon2 {
@@ -574,10 +602,6 @@ main {
     font-size: 0.85rem;
   }
 
-  .input-group {
-    width: 100% !important;
-  }
-
   .input-group button{
     font-weight: 500 !important;
   }
@@ -619,4 +643,298 @@ main {
   .secure-and-reliable-text p{
     font-size: 0.75rem;
   }
+}
+
+/**ABOUT PAGE**/
+.tagline {
+  color: #231F20;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.9rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  align-self: center;
+}
+
+.about_content {
+  margin-left: 6.60%;
+  margin-right: 6.60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: inherit;
+}
+
+.section-heading {
+  color: #3799D4;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 1.5rem;
+  line-height: normal;
+  align-self: flex-start;
+}
+
+.FAQ {
+  width: 100%;
+  margin-bottom: 2.15vh;
+}
+
+.question {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #FFF;
+  box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.25);
+  height: 7.95vh;
+  padding-left: 2.6%;
+  padding-right: 2.6%;
+  font-weight: 500;
+}
+
+.question-text {
+  margin: 0;
+}
+
+.bi-chevron-down, .bi-chevron-up{
+  margin-left: auto;
+}
+.answer {
+  width: 100%;
+  padding: 10px;
+}
+
+.answer-text {
+  margin: 0;
+}
+
+.topic {
+  color: #231F20;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 1.1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  align-self: flex-start;
+}
+
+.contact-column {
+  width: 100vw;
+  /* background-color: #ac2bac; */
+}
+
+.contact-content {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 1.0rem;
+  font-weight: 500;
+}
+
+.contact-content span {
+  font-weight: 600;
+}
+
+.contact-column .bi-linkedin {
+  color: #0082CA;
+}
+
+.contact-column .bi-instagram {
+  color: #AC2BAC;
+}
+
+.contact-column .bi-facebook {
+  color: #3B5998;
+}
+
+.social-media .bi {
+  margin-right: 0.5vw;
+}
+.social-media {
+  display: flex;
+}
+
+.feedback-form {
+  width: 50%;
+  background-color: transparent;
+  align-self: flex-start;
+  margin: 0;
+  padding: 0 0 10px 0;
+}
+
+.form-label {
+  font-weight: 600;
+  font-size: 1.1rem;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.smileys i {
+  margin-right: 5%;
+}
+
+.smileys i:hover {
+  color: #3799D4;
+}
+
+.form-check-label {
+  font-size: 1rem;
+  white-space: nowrap;
+}
+
+.form-check {
+  margin-right: 5%;
+}
+
+.form-group {
+  margin-bottom: 2%;
+}
+
+.form-control {
+  margin-bottom: 3.5%;
+}
+
+.feedback-submit {
+  padding: 1% 6% !important;
+  border-radius: 30px !important;
+  font-family: 'Nunito Sans', sans-serif !important;
+  font-weight: 600 !important;
+  border: none !important;
+}
+
+.page-section {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5.6%;
+  width: 100%;
+  align-items: flex-start;
+}
+
+.explore-content {
+  display: flex;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  width: 100%;
+}
+
+.explore-text {
+  align-self: flex-start;
+}
+
+.explore-btn-div {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.explore-btn {
+  font-family: 'Nunito Sans', sans-serif !important;
+  font-weight: 600 !important;
+  border: none !important;
+  margin-left: auto;
+  padding: 1.5% 5% !important;
+  border-radius: 30px !important;
+}
+
+.currency-form {
+  margin-right: 5%;
+}
+
+.converter {
+  width: 100%;
+}
+
+.input-field {
+  height: 50px;
+  width: 250px !important;
+  border-radius: 18px;
+  border: 1px solid #CCC;
+  background: #FFF;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.25) inset;
+}
+
+.dropdown-toggle {
+  background-color: #3799D4 !important;
+}
+
+.converter-fields {
+  display: flex;
+  width: 100%;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.categories {
+  display: flex;
+  width: 100%;
+  margin-bottom: 2%;
+  justify-content: space-around;
+}
+
+.category {
+  border: 1px #3799D4 solid;
+  text-align: center;
+  border-radius: 20px;
+  color: #231F20;
+  background-color: white;
+  padding: 0.25% 1%;
+  width: fit-content;
+  white-space: nowrap;
+}
+
+.category:hover {
+  background-color: #3799D4;
+  color: white;
+  cursor: pointer;
+}
+
+.category.active {
+  background-color: #3799D4;
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.videos {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.youtube-thumbnail {
+  width: 100%;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.youtube-thumbnail img {
+  width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.thumbnail-title {
+  color: #231F20;
+  margin-top: 8px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  font-family: 'Nunito Sans', sans-serif
+}
+
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 7rem;
+  color: #231F20;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.play-button:hover {
+  color: red;
 }

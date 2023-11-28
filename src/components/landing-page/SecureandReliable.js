@@ -1,6 +1,5 @@
 import React from "react";
 import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
 
 const SecureandReliableComponent = () => {
     return (  
@@ -14,7 +13,7 @@ const SecureandReliableComponent = () => {
                         team and uptime guarantees, trust that your funds are safe and accessible whenever 
                         you need them. Rest easy knowing that your funds are not only secure but also reliably 
                         accessible whenever you need them</p>
-                    <h4>See what some of our users have to say:</h4>
+                    {/* <h4>See what some of our users have to say:</h4>
                     <div className="horizontal-scroll">
                         <div className="scroll-container">
                             <div className="testimonial mx-auto">
@@ -35,7 +34,7 @@ const SecureandReliableComponent = () => {
                                 </Row>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
                 <div className="col-6 col-md-6 image">
                     <img
