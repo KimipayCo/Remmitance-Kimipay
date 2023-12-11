@@ -3,9 +3,9 @@ import React from "react";
 const JoinCommunityComponent = () => {
     return ( 
         <div className="page-section">
-            <h2 className="section-heading">Join Our Community</h2>
-            <h4>Join Millions Worldwide</h4>
-            <p>Join the millions of users worldwide who trust Kimipay 
+            <h2 className="heading">Join Our Community</h2>
+            <h4 className="subheading">Join Millions Worldwide</h4>
+            <p className="description">Join the millions of users worldwide who trust Kimipay 
                 for their digital financial needs. Be a part of our global community.</p>
         </div>
     );

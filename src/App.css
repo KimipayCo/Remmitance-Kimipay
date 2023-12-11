@@ -17,8 +17,6 @@
   font-style: normal;
 }
 
-/* Repeat for other weights as needed */
-
 .section-heading {
   font-family: 'Montserrat', sans-serif;
   font-weight: 900;
@@ -28,12 +26,20 @@
 .App {
   background-color: #F3F3F9;
 }
+
+.remove-link-style {
+  text-decoration: none;
+}
 /* NAVIGATION BAR */
 
 .nav-link{
   font-family: 'Nunito Sans', sans-serif;
   font-size: 14px;
   font-weight: 600;
+}
+
+.navbar {
+  margin-bottom: 1%;
 }
 
 .nav-link.active {
@@ -63,10 +69,6 @@
 
 /* GENERAL */
 
-.section {
-  width: 100%;
-}
-
 .subsection {
   height: 50vh;
   padding-left: 4%;
@@ -84,8 +86,8 @@ p {
 
 /* BANNER SECTION */
 
-.header {
-  background: linear-gradient(180deg, rgba(55, 153, 212, 0.50) 0%, #3799D4 68.4%);
+.banner {
+  padding-top: 6%;
 }
 
 .header .col-md-6{
@@ -112,10 +114,12 @@ h1 {
 .heading {
   font-weight: bolder;
   font-size: 2.75rem !important;
+  color: #3799D4 !important;
+  align-self: first baseline;
 }
 
 .subtitle {
-  color: white;
+  color: #231F20;
   font-weight: bold;
   font-size: 1.2rem;
 }
@@ -125,8 +129,8 @@ h1 {
 }
 
 .description {
-  font-size: 18px;
-  color: white;
+  font-size: 1.1rem;
+  color: #231F20;
 }
 
 .bi-arrow-right {
@@ -259,7 +263,7 @@ h1 {
 }
 
 .secure-and-reliable-img {
-  width: 400px;
+  width: 300px;
   height: auto;
 }
 
@@ -375,6 +379,10 @@ h1 {
   backface-visibility: hidden;
 }
 
+.btn {
+  transition: background-image 0.3s ease;
+}
+
 .btn.facebook:hover {
   background-color: #3b5998;
 }
@@ -388,7 +396,7 @@ h1 {
 }
 
 .btn.instagram:hover {
-  background-color: #ac2bac;
+  background-image: linear-gradient(90deg, #833ab4, #fd1d1d);
 }
 
 .btn.linkedin:hover {
@@ -848,20 +856,23 @@ main {
   width: 250px !important;
   border-radius: 18px;
   border: 1px solid #CCC;
+  font-weight: 600;
   background: #FFF;
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.25) inset;
+  margin: 0 auto;
 }
 
 .dropdown-toggle {
   background-color: #3799D4 !important;
+  border-radius: 30px !important;
+  padding: 0;
+  margin-top: 0;
 }
 
 .converter-fields {
   display: flex;
-  width: 100%;
-  height: auto;
   align-items: center;
-  justify-content: center;
+  height: 100%;
 }
 
 .categories {
@@ -929,7 +940,7 @@ main {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 7rem;
+  font-size: 6rem;
   color: #231F20;
   border-radius: 50%;
   cursor: pointer;
@@ -937,4 +948,41 @@ main {
 
 .play-button:hover {
   color: red;
+}
+
+.see-more-btn{
+  font-family: 'Nunito Sans', sans-serif !important;
+  font-weight: 600 !important;
+  border: none !important;
+  padding: 0.5% 2% !important;
+  border-radius: 30px !important;
+}
+
+.user-manual {
+  background-color: white;
+  padding: 5% 2%;
+  width: 100%;
+  flex-direction: column;
+  margin-bottom: 5.6%;
+  align-items: flex-start;
+  padding-left: 6.60%;
+  padding-right: 6.60%;
+}
+
+.user-manual-img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.ligher-heading {
+  color: #3799D4;
+}
+
+.hyperlink a {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #3799D4;
+  font-family: 'Nunito Sans', sans-serif;
 }

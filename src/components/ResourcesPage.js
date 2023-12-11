@@ -4,6 +4,7 @@ import FooterComponent from "./Footer";
 import CurrencyConverterComponent from "./resources-page/CurrencyConverter";
 import VideoTutorialsComponent from "./resources-page/VideoTutorials";
 import JoinCommunityComponent from "./landing-page/JoinCommunity";
+import UserManualSection from "./resources-page/UserManual";
 
 const ResourcesPage = () => {
     return ( 
@@ -12,6 +13,7 @@ const ResourcesPage = () => {
             <div className="about_content">
                 <CurrencyConverterComponent />
                 <VideoTutorialsComponent />
+                <UserManualSection />
                 <JoinCommunityComponent />
             </div>
             <FooterComponent />

@@ -41,7 +41,7 @@ const LoginPage = () => {
                                 />
                             </div>
                         </div>
-                        <Link to="/dashboard">
+                        <Link to="/dashboard" className="remove-link-style">
                             <div className="mb-3 d-flex justify-content-center">
                                 <button type="submit" className="rounded-pill register-btn">Login</button>
                             </div>

@@ -3,12 +3,12 @@ import Row from "react-bootstrap/Row";
 
 const SecureandReliableComponent = () => {
     return (  
-        <div className="section secure-and-reliable">
+        <div className="page-section">
             <Row>
-                <div className="secure-and-reliable-text col-md-6">
-                    <h2>Secure and Reliable...</h2>
-                    <h4>Your Funds in Safe Hands</h4>
-                    <p>Our cutting-edge security measures, including encryption and multi-factor
+                <div className="col-md-6">
+                    <h2 className="heading">Secure and Reliable...</h2>
+                    <h4 className="subheading">Your Funds in Safe Hands</h4>
+                    <p className="description">Our cutting-edge security measures, including encryption and multi-factor
                         authentication, ensure your assets are protected. With a dedicated support 
                         team and uptime guarantees, trust that your funds are safe and accessible whenever 
                         you need them. Rest easy knowing that your funds are not only secure but also reliably 

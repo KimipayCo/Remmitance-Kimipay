@@ -12,9 +12,7 @@ const LandingPage = () => {
         <div className="App">
             <NavbarComponent />
             <div className="about_content">
-                <div className="section header">
-                    <BannerComponent />
-                </div>
+                <BannerComponent />
                 <FeaturesComponent />
                 <SecureandReliableComponent />
                 <JoinCommunityComponent />

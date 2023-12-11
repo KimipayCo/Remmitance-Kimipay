@@ -1,5 +1,5 @@
 import React from "react";
-import VideoComponent from "./VideoComponent";
+import VideoComponent from "./VideoComponent"
 
 const VideoTutorialsComponent = () => {
     return (

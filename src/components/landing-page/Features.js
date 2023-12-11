@@ -6,7 +6,7 @@ import Col from 'react-bootstrap/Col';
 
 const FeaturesComponent = () => {
     return ( 
-        <div className="section features">
+        <div className="page-section">
             <h2 className="heading">Features</h2>
             <Row className="mb-1">
                 <Col className="col-lg-3 col-md-6">
@@ -32,8 +32,8 @@ const FeaturesComponent = () => {
                         </div>
                             <Card.Title>Versatile Funds Handling</Card.Title>
                             <Card.Text>
-                            Recieve money from Mobile Money, cards and banks seamlessly. Kimipay Wallet
-                            simplifies fund collection, putting control in your hands.
+                            Recieve money from Mobile Money, cards and banks. Simplified 
+                            fund collection, putting control in your hands.
                             </Card.Text>
                             {/* <Button variant="outline-primary" className="rounded-pill">Learn More</Button> */}
                         </Card.Body>

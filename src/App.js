@@ -5,6 +5,7 @@ import RegistrationPage from './components/user-authentication/RegistrationPage'
 import LoginPage from './components/user-authentication/LoginPage';
 import AboutPage from './components/AboutPage';
 import ResourcesPage from './components/ResourcesPage';
+import SupportPage from './components/Help&SupportPage';
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
         <Routes>
           <Route path='/' element={<LandingPage />} />
           <Route path='/about' element={<AboutPage />} />
-          <Route path='/help-&-support' />
+          <Route path='/help-&-support' element={<SupportPage />} />
           <Route path='/resources' element={<ResourcesPage />} />
           <Route path='/registration' element={<RegistrationPage />} />
           <Route path='/login' element={<LoginPage />} />

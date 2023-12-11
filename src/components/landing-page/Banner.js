@@ -3,7 +3,7 @@ import Button from "react-bootstrap/Button";
 
 const BannerComponent = () => {
     return ( 
-        <>
+        <div className="page-section banner">
             <div className="row">
                 <div className="col-md-6">
                     <h1 className="heading">Your Digital Solution for <span className="yellow-text">Secure</span> and <span className="yellow-text">Convenient</span> Remittances</h1>
@@ -23,7 +23,7 @@ const BannerComponent = () => {
                     />
                 </div>
             </div>
-        </>
+        </div>
     );
 }
 
