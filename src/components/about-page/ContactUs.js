@@ -4,7 +4,7 @@ import MapComponent from "./MapLocation";
 const ContactUsSection = () => {
     return ( 
         <div className="page-section">
-            <h2 className="section-heading">Contact Us</h2>
+            <h2 className="heading">Contact Us</h2>
             <div className="row">
                 <div className="col-md-6 contact-column">
                     <h6 className="topic">Customer Support</h6>
@@ -15,21 +15,21 @@ const ContactUsSection = () => {
                         <div className="col-md-6">
                             <div className="social-media">
                                 <i className="bi bi-facebook"></i>
-                                <p>@Kimipay</p>
+                                <p className="social-name">@Kimipay</p>
                             </div>
                             <div className="social-media">
                                 <i className="bi bi-instagram"></i>
-                                <p>@kimipayltd</p>
+                                <p className="social-name">@kimipayltd</p>
                             </div>
                         </div>
                         <div className="col-md-6">
                             <div className="social-media">
                                 <i className="bi bi-linkedin"></i>
-                                <p>@KimiPay</p>
+                                <p className="social-name">@KimiPay</p>
                             </div>
                             <div className="social-media">
                                 <i className="bi bi-twitter-x"></i>
-                                <p>@KimipayLtd</p>
+                                <p className="social-name">@KimipayLtd</p>
                             </div>
                         </div>
                         <div>

@@ -6,6 +6,7 @@ import LoginPage from './components/user-authentication/LoginPage';
 import AboutPage from './components/AboutPage';
 import ResourcesPage from './components/ResourcesPage';
 import SupportPage from './components/Help&SupportPage';
+import Dashboard from './components/pages/wallet/pages/Dashboard';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path='/resources' element={<ResourcesPage />} />
           <Route path='/registration' element={<RegistrationPage />} />
           <Route path='/login' element={<LoginPage />} />
+          <Route path='/username/Dashboard' element={<Dashboard />} />
         </Routes>
     </Router>
   );

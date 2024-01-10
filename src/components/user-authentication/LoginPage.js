@@ -5,15 +5,15 @@ const LoginPage = () => {
     return ( 
         <div className="section page-background">
             <div className="row">
-                <div className="col-md-6">
+                <div className="col-md-6 log-img">
                 <img
                         src="./login.svg"
                         alt="login"
                         className="login"
                     />
                 </div>
-                <div className="col-md-6">
-                    <form className="d-flex flex-column" style={{ width: '80vw' }}>
+                <div className="col-md-6 log-form-container">
+                    <form className="d-flex flex-column log-form">
                         <div className="mb-3 d-flex justify-content-center">
                             <img
                             src="./logo22.png"
@@ -41,13 +41,13 @@ const LoginPage = () => {
                                 />
                             </div>
                         </div>
-                        <Link to="/dashboard" className="remove-link-style">
+                        <Link to="/username/dashboard" className="remove-link-style">
                             <div className="mb-3 d-flex justify-content-center">
                                 <button type="submit" className="rounded-pill register-btn">Login</button>
                             </div>
                         </Link>
-                        <div className="mb-3 d-flex justify-content-center">
-                            <label className="form-check-label" htmlFor="agreeCheckbox">
+                        <div className="mb-3 d-flex justify-content-center redirect-link">
+                            <label>
                                 Need an account? <a href="/registration" className="login">Create one</a>
                             </label>
                         </div>
@@ -58,5 +58,5 @@ const LoginPage = () => {
         </div>
     );
 }
- 
+
 export default LoginPage;

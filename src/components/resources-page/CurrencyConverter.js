@@ -4,7 +4,7 @@ import { Form, Dropdown } from "react-bootstrap";
 const CurrencyConverterComponent = () => {
     return ( 
         <div className="page-section">
-            <h2 className="section-heading">Currency Converter</h2>
+            <h2 className="heading">Currency Converter</h2>
             <Form className="converter">
                 <div className="row">
                     <div className="col-md-6">

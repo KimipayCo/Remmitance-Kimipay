@@ -12,11 +12,11 @@ const WalletPage = () => {
         <div className="page-background">
             <Sidebar />
             <Routes>
-                <Route path="/dashboard" element={<Dashboard />} />
-                <Route path="/sendFunds" element={<SendFunds />} />
-                <Route path="/transactionHistory" element={<TransactionHistory />} />
-                <Route path="/exchangeRates" element={<ExchangeRates />} />
-                <Route path="/feesAndTariffs" element={<FeesAndTariffs />} />
+                <Route path="/username/dashboard" element={<Dashboard />} />
+                <Route path="/username/sendFunds" element={<SendFunds />} />
+                <Route path="/username/transactionHistory" element={<TransactionHistory />} />
+                <Route path="/username/exchangeRates" element={<ExchangeRates />} />
+                <Route path="/username/feesAndTariffs" element={<FeesAndTariffs />} />
             </Routes>
         </div>
     );

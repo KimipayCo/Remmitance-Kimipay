@@ -26,7 +26,7 @@ const FeedbackFormSection = () => {
 
     return ( 
         <div className="page-section">
-            <h2 className="section-heading">Feedback Form</h2>
+            <h2 className="heading">Feedback Form</h2>
             <Form className="feedback-form" onSubmit={handleSubmit}>
             <Form.Group controlId="formBasicEmail" className="form-group">
                 <Form.Label>Email address</Form.Label>
@@ -47,7 +47,7 @@ const FeedbackFormSection = () => {
             </Form.Group>
             <Form.Group className="form-group">
                 <Form.Label htmlFor="">Type of Feedback:</Form.Label>
-                <div className="d-flex">
+                <div className="d-flex flex-wrap">
                     <Form.Check
                         name="generalFeedback"
                         type="checkbox"

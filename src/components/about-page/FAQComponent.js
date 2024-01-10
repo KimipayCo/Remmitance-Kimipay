@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 
-const FAQComponent = () => {
+const FAQComponent = ({ question, answer }) => {
     const [showAnswer, setShowAnswer] = useState(false);
     const handleToggle = () => {
         setShowAnswer(!showAnswer);
@@ -9,12 +9,12 @@ const FAQComponent = () => {
     return ( 
         <div className="FAQ">
             <div className="question" onClick={handleToggle}>
-                <p className="question-text">Question</p>
+                <p className="question-text">{question}</p>
                 <i className={`bi bi-chevron-${showAnswer ? 'up' : 'down'}`}></i>
             </div>
             {showAnswer && (
                 <div className="answer">
-                    <p className="answer-text">Answer to the question goes here.</p>
+                    <p className="answer-text">{answer}</p>
                 </div>
             )}
         </div>
