@@ -23,7 +23,7 @@ const RegistrationPage = () => {
                         <div className="mb-3">
                             <input
                             type="text"
-                            className="form-control w-100"
+                            className="form-control"
                             id="fullName"
                             name="fullName"
                             placeholder="Full Name"
@@ -32,7 +32,7 @@ const RegistrationPage = () => {
                         <div className="mb-3">
                             <input
                             type="email"
-                            className="form-control w-100"
+                            className="form-control"
                             id="email"
                             name="email"
                             placeholder="Email Address"
@@ -41,7 +41,7 @@ const RegistrationPage = () => {
                         <div className="mb-3">
                             <input
                             type="tel"
-                            className="form-control w-100"
+                            className="form-control"
                             id="phone"
                             name="phone"
                             placeholder="Phone Number"
@@ -49,7 +49,7 @@ const RegistrationPage = () => {
                         </div>
                         <div className="mb-3">
                             <select
-                            className="form-select w-100"
+                            className="form-select"
                             id="country"
                             name="country"
                             >
@@ -62,7 +62,7 @@ const RegistrationPage = () => {
                         <div className="mb-3">
                             <input
                             type="password"
-                            className="form-control w-100"
+                            className="form-control"
                             id="password"
                             name="password"
                             placeholder="Password"
@@ -71,7 +71,7 @@ const RegistrationPage = () => {
                         <div className="mb-3">
                             <input
                             type="password"
-                            className="form-control w-100"
+                            className="form-control"
                             id="confirmPassword"
                             name="confirmPassword"
                             placeholder="Confirm Password"
