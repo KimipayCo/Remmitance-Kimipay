@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Remmitance-Kimipay/static/css/main.49ab6481.css",
-    "main.js": "/Remmitance-Kimipay/static/js/main.38b83000.js",
-    "static/js/787.916dbccb.chunk.js": "/Remmitance-Kimipay/static/js/787.916dbccb.chunk.js",
+    "main.css": "/Remmitance-Kimipay/static/css/main.b31aeaae.css",
+    "main.js": "/Remmitance-Kimipay/static/js/main.63a99384.js",
+    "static/js/787.997202c5.chunk.js": "/Remmitance-Kimipay/static/js/787.997202c5.chunk.js",
     "static/media/Montserrat-Black.ttf": "/Remmitance-Kimipay/static/media/Montserrat-Black.beacc26b4bbaaf608567.ttf",
     "static/media/Montserrat-SemiBold.ttf": "/Remmitance-Kimipay/static/media/Montserrat-SemiBold.93b37a465fc4ec0d0415.ttf",
     "static/media/Montserrat-Medium.ttf": "/Remmitance-Kimipay/static/media/Montserrat-Medium.b8c6753baa964ccac1ba.ttf",
     "static/media/bootstrap-icons.woff?": "/Remmitance-Kimipay/static/media/bootstrap-icons.449ad8adf6ae0424b7ed.woff",
     "static/media/bootstrap-icons.woff2?": "/Remmitance-Kimipay/static/media/bootstrap-icons.dea24bf5a7646d8b84e7.woff2",
     "index.html": "/Remmitance-Kimipay/index.html",
-    "main.49ab6481.css.map": "/Remmitance-Kimipay/static/css/main.49ab6481.css.map",
-    "main.38b83000.js.map": "/Remmitance-Kimipay/static/js/main.38b83000.js.map",
-    "787.916dbccb.chunk.js.map": "/Remmitance-Kimipay/static/js/787.916dbccb.chunk.js.map"
+    "main.b31aeaae.css.map": "/Remmitance-Kimipay/static/css/main.b31aeaae.css.map",
+    "main.63a99384.js.map": "/Remmitance-Kimipay/static/js/main.63a99384.js.map",
+    "787.997202c5.chunk.js.map": "/Remmitance-Kimipay/static/js/787.997202c5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.49ab6481.css",
-    "static/js/main.38b83000.js"
+    "static/css/main.b31aeaae.css",
+    "static/js/main.63a99384.js"
   ]
 }
